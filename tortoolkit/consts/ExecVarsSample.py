@@ -9,7 +9,7 @@ except:
         API_HASH = os.environ.get("d692515312741702751ad5525dbd91c3")
         API_ID = int(os.environ.get("2469678"))
         BOT_TOKEN = os.environ.get("1402260357:AAFzLVPYJympMH4UASy81ENT49SL7N2LXy8")
-        BASE_URL_OF_BOT = os.environ.get("http://t.me/new123123bot")
+        BASE_URL_OF_BOT = os.environ.get("https://elastic-cows-production.up.railway.app/")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [-521884514]
         
