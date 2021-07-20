@@ -29,7 +29,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = os.environ.get("")
+        DB_URI = os.environ.get("postgresql://postgres:tTHlGclCJ3eLbymoWB5q@containers-us-west-6.railway.app:7216/railway")
         
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/usr/src/app/rclone.conf"
