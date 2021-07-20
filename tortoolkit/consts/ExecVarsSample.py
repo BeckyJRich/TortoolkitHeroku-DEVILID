@@ -52,10 +52,10 @@ except:
         DEF_RCLONE_DRIVE = "Becky Rich"
 
         # Max size of the torrent allowed
-        MAX_YTPLAYLIST_SIZE = 
+        MAX_YTPLAYLIST_SIZE = 0
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 
+        MAX_TORRENT_SIZE = 0
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
