@@ -6,12 +6,12 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = os.environ.get("API_HASH")
-        API_ID = int(os.environ.get("API_ID"))
-        BOT_TOKEN = os.environ.get("BOT_TOKEN")
-        BASE_URL_OF_BOT = os.environ.get("BASE_URL")
+        API_HASH = os.environ.get("d692515312741702751ad5525dbd91c3")
+        API_ID = int(os.environ.get("2469678"))
+        BOT_TOKEN = os.environ.get("1402260357:AAFzLVPYJympMH4UASy81ENT49SL7N2LXy8")
+        BASE_URL_OF_BOT = os.environ.get("http://t.me/new123123bot")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [871967943,1291911714,755983475,1282644258,-1001348584170]
+        ALD_USR = [-521884514]
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 5
@@ -29,10 +29,10 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = os.environ.get("DATABASE_URL")
+        DB_URI = os.environ.get("")
         
         # The base direcory to which the files will be upload if using RCLONE
-        RCLONE_BASE_DIR = "/"
+        RCLONE_BASE_DIR = "/usr/src/app/rclone.conf"
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
@@ -40,22 +40,22 @@ except:
 
         # Will be enabled once its set
         # For vps change it to True if config loaded
-        RCLONE_ENABLED = False
+        RCLONE_ENABLED = True
 
         # If the user fails to select whether to use rclone or telegram to upload this will be the deafult.
         DEFAULT_TIMEOUT = "leech"
 
         # For vps set path here or you can use runtime too
-        RCLONE_CONFIG = False
+        RCLONE_CONFIG = True
         
         # Name of the RCLONE drive from the config
-        DEF_RCLONE_DRIVE = ""
+        DEF_RCLONE_DRIVE = "Becky Rich"
 
         # Max size of the torrent allowed
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
@@ -70,6 +70,8 @@ except:
         FAST_UPLOAD = True
         METAINFO_BOT = False
         
+
+
 
 
 
